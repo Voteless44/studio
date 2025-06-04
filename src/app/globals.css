@@ -33,8 +33,8 @@ body::before {
     --popover: 20 5% 15% / 0.9;
     --popover-foreground: 0 0% 95%;
     
-    --primary: 28 100% 50%; /* Vibrant Orange (e.g., basketball orange) */
-    --primary-foreground: 20 5% 10%; /* Dark text on orange */
+    --primary: 0 55% 30%; /* Deep Maroon */
+    --primary-foreground: 0 0% 95%; /* Light text on maroon */
     
     --secondary: 20 5% 25% / 0.8; /* Dark gray, slightly transparent for secondary elements */
     --secondary-foreground: 0 0% 90%;
@@ -42,7 +42,7 @@ body::before {
     --muted: 20 5% 20% / 0.7;
     --muted-foreground: 0 0% 70%; /* Lighter gray for muted text */
     
-    --accent: 35 100% 55%; /* Bright Yellow/Gold */
+    --accent: 35 100% 55%; /* Bright Yellow/Gold - kept as is */
     --accent-foreground: 20 5% 10%; /* Dark text on accent */
     
     --destructive: 0 70% 50%; /* Standard red for destructive actions */
@@ -50,9 +50,9 @@ body::before {
     
     --border: 0 0% 40% / 0.5; /* Semi-transparent darker border */
     --input: 20 5% 22% / 0.8; /* Darker input background, ensure text is light */
-    --ring: 28 100% 55%; /* Orange for focus rings */
+    --ring: 0 55% 35%; /* Maroon for focus rings */
     
-    --chart-1: 28 100% 60%;
+    --chart-1: 0 55% 40%; /* Maroon for charts */
     --chart-2: 35 100% 60%;
     --chart-3: 200 80% 50%; /* A sporty blue */
     --chart-4: 120 60% 45%; /* A sporty green */
@@ -61,12 +61,12 @@ body::before {
 
     --sidebar-background: 20 5% 12% / 0.9;
     --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 28 100% 50%;
-    --sidebar-primary-foreground: 20 5% 10%;
+    --sidebar-primary: 0 55% 30%; /* Maroon for sidebar primary */
+    --sidebar-primary-foreground: 0 0% 95%; /* Light text for sidebar primary */
     --sidebar-accent: 20 5% 20% / 0.8;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 0 0% 30% / 0.7;
-    --sidebar-ring: 28 100% 55%;
+    --sidebar-ring: 0 55% 35%; /* Maroon for sidebar focus rings */
   }
 
   .dark {
@@ -77,28 +77,28 @@ body::before {
     --card-foreground: 0 0% 95%;
     --popover: 20 5% 15% / 0.9;
     --popover-foreground: 0 0% 95%;
-    --primary: 28 100% 50%;
-    --primary-foreground: 20 5% 10%;
+    --primary: 0 55% 30%; /* Deep Maroon */
+    --primary-foreground: 0 0% 95%; /* Light text on maroon */
     --secondary: 20 5% 25% / 0.8;
     --secondary-foreground: 0 0% 90%;
     --muted: 20 5% 20% / 0.7;
     --muted-foreground: 0 0% 70%;
-    --accent: 35 100% 55%;
+    --accent: 35 100% 55%; /* Bright Yellow/Gold - kept as is */
     --accent-foreground: 20 5% 10%;
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 40% / 0.5;
     --input: 20 5% 22% / 0.8;
-    --ring: 28 100% 55%;
+    --ring: 0 55% 35%; /* Maroon for focus rings */
     
     --sidebar-background: 20 5% 12% / 0.9;
     --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 28 100% 50%;
-    --sidebar-primary-foreground: 20 5% 10%;
+    --sidebar-primary: 0 55% 30%; /* Maroon for sidebar primary */
+    --sidebar-primary-foreground: 0 0% 95%; /* Light text for sidebar primary */
     --sidebar-accent: 20 5% 20% / 0.8;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 0 0% 30% / 0.7;
-    --sidebar-ring: 28 100% 55%;
+    --sidebar-ring: 0 55% 35%; /* Maroon for sidebar focus rings */
   }
 }
 
