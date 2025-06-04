@@ -159,7 +159,7 @@ export default function ClutchTakesPage() {
     <div className="min-h-screen flex flex-col items-center py-8 px-4 bg-background font-body">
       <header className="text-center mb-10">
         <h1 className="text-5xl font-headline font-bold text-primary mb-2">
-          Take It or Break It
+          Clutch Takes
         </h1>
         <p className="text-lg text-muted-foreground font-medium">
           Drop your hot takes. Vote. Debate.
@@ -213,7 +213,7 @@ export default function ClutchTakesPage() {
         )}
       </main>
       <footer className="mt-12 text-center text-sm text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} Take It or Break It. All opinions are users' own.</p>
+        <p>&copy; {new Date().getFullYear()} Clutch Takes. All opinions are users' own.</p>
       </footer>
     </div>
   );
