@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url('/background-sports.jpg');
+  background-image: url('/background-sports.jpg'); /* Updated to ensure it's using this filename */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -18,7 +18,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay to ensure text readability */
   z-index: -1; /* Place it behind the content */
 }
 
